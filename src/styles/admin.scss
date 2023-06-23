@@ -1,0 +1,21 @@
+.admin-panel {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #191919;
+    padding: 30px;
+    width: 70%;
+    margin: 30px auto 0;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
+}
+.admin-product{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
